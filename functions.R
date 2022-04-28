@@ -25,26 +25,6 @@ syndatafunction_norm = function(m){
   return(syndatalist)
 }
 
-disclosure_risk = function(n,m,syndata){
-  c.j = rep(NA,n)
-  T.j = rep(NA,n)
-  for(i in 1:n){
-    match.prob = array(NA,dim=c(n,m))
-    for (j in 1:m){
-      match = (syndata[[j]]$Sex == data$Sex[i] & abs(syndata[[j]]$Age - data$Age[i]) <= 1)
-      match.prob[,j] <- ifelse(match, 1/sum(match), 0)
-    }
-    pr.J<-apply(match.prob,1,mean)
-    c.j[i]<-length(pr.J[pr.J==max(pr.J)])
-    T.j[i]<-(pr.J[i]==max(pr.J))
-  }
-  
-  #true match rate
-  I = 1*(c.j*T.j==1)
-  risk = sum(I)/n
-  return(risk)
-}
-
 conf = function(data){
   fit = glm(data[,1] ~ ., data = data[,3:ncol(data)], family = binomial(probit))
   conf = data.frame(summary(fit)$coefficients[-1,1:2],confint(fit)[-1,1:2])
