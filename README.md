@@ -6,7 +6,7 @@ For the full methodology and results, please see *Report.pdf*. Here, the overall
 The functions that were created are in *functions.R* Please note that some of the functions depend on some other functions that are not included here so it won't be possible to run some of the functions.
 
 ## Images
-![Alt text](./images/Image1.png)
+![Alt text](./images/Image 1.png)
 
 
 ## Authors
