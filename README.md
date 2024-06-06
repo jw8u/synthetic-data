@@ -5,7 +5,8 @@ A major problem surrounding the release of datasets of experimental studies is h
 The functions that were created are in *functions.R* Please note that some of the functions depend on some other functions that are not included here so it won't be possible to run some of the functions.
 
 ## Results
-The main goals for this project is the assess the overall quality and usefulness of the synthetic datasets with respect to the original data. In particular, the disclosure risk and data utility measures are generated on differing numbers of synthetic datasets, and the results were compared.\ For the full methodology and results, please see *Report.pdf*. Here, a few interesting results are displayed. 
+The main goals for this project is the assess the overall quality and usefulness of the synthetic datasets with respect to the original data. In particular, the disclosure risk and data utility measures are generated on differing numbers of synthetic datasets, and the results were compared.\ 
+For the full methodology and results, please see *Report.pdf*. Here, a few interesting results are displayed. 
 
 ![Alt text](./images/Image1.png)
 ![Alt text](./images/Image2.png)
