@@ -5,6 +5,10 @@ A major problem surrounding the release of datasets of experimental studies is h
 For the full methodology and results, please see *Report.pdf*. Here, the overall quality and usefulness of the synthetic datasets with respect to the original data is discussed. In addition, the measures will be generated on differing number of synthetic datasets, and the results will be compared.
 The functions that were created are in *functions.R* Please note that some of the functions depend on some other functions that are not included here so it won't be possible to run some of the functions.
 
+## Images
+![Alt text](images/Image1.png?raw=true "Title")
+
+
 ## Authors
 
 - [@jw8u](https://www.github.com/jw8u)
