@@ -7,7 +7,12 @@ The functions that were created are in *functions.R* Please note that some of th
 
 ## Images
 ![Alt text](./images/Image1.png)
-
+![Alt text](./images/Image2.png)
+![Alt text](./images/Image3.png)
+![Alt text](./images/Image4.png)
+![Alt text](./images/Image5.png)
+![Alt text](./images/Image6.png)
+![Alt text](./images/Image7.png)
 
 ## Authors
 
