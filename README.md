@@ -7,7 +7,7 @@ The functions that were created are in *functions.R* Please note that some of th
 ## Results
 The main goals for this project is the assess the overall quality and usefulness of the synthetic datasets with respect to the original data. In particular, the disclosure risk and data utility measures are generated on differing numbers of synthetic datasets, and the results were compared. For the full methodology and results, please see *Report.pdf*. Here, a few interesting results are displayed. 
 
-<p style="text-align: center;">#### Example plots of observed vs synthetic </p>
+#### Example plots of observed vs synthetic
 
 ![Alt text](./images/Image1.png)
 
