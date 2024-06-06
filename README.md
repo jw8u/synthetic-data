@@ -15,7 +15,7 @@ The main goals for this project is the assess the overall quality and usefulness
 ![Alt text](./images/Image6.png)
 ![Alt text](./images/Image7.png)
 
-#### Brief Conclusions
+## Brief Conclusions
 In this experiment, the parametric and CART methods performed nearly identically well. In particular, there were no substantial differences in disclosure risks, overlap measure, and standardized difference for any number of synthetic datasets generated.\
 As *m* increases up until around *m* = 10, the disclosure risk is seen to increase for both methods which is expected. However, after as m increases further, there is no clear trend.\
 As *m* increases, the Confidence Interval Overlap Measure and the Standardized Difference for this dataset appears to be constant, which is surprising.
